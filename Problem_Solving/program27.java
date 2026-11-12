@@ -24,7 +24,7 @@ class program27
         System.out.println("And i am "+ iAge + " years old");
         System.out.println("and i got "+ fMarks + "marks in Maths.");
 
-       
+        scanner.close();
 
     }
 }

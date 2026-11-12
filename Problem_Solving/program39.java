@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+
+class Arithmetic 
+{
+    public int Addition( int iNo1 , int iNo2)
+    {
+        int iAns = 0;
+
+        iAns = iNo1 + iNo2;
+
+        return  iAns;
+    }
+}
+
+class program38
+{
+     public static void main(String args[])
+     {
+        Scanner scanner = new Scanner(System.in);
+
+        int iValue1 = 0 , iValue2 = 0 , iRet = 0;
+
+        System.out.println("Enter first number : ");
+        iValue1 = scanner.nextInt();
+
+        System.out.println("Enter Second number : ");
+        iValue2 = scanner.nextInt();
+
+        Arithmetic arithmetic = new Arithmetic();
+
+        iRet = arithmetic.Addition(iValue1,iValue2);
+
+        System.out.println("Addition is : " + iRet);
+
+        scanner.close();
+
+
+     }
+}

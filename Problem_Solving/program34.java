@@ -21,5 +21,7 @@ class program33
 
         iRet = Addition(iValue1,iValue2);
         System.out.println("Addition is : " + iRet);
+
+         scanner.close();
     }
 }

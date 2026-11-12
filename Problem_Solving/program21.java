@@ -11,5 +11,7 @@ class program21
 
        System.out.println("Hello "+name);
 
+       scanner.close();
+
     }
 }

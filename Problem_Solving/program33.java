@@ -15,5 +15,7 @@ class program33
 
         iRet = iValue1 + iValue2; /*Business Logic */
         System.out.println("Addition is : " + iRet);
+
+         scanner.close();
     }
 }

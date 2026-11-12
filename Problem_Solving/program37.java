@@ -25,5 +25,7 @@ class program36
 
         iRet = Arithmetic.Addition(iValue1,iValue2);
         System.out.println("Addition is : " + iRet);
+
+         scanner.close();
     }
 }

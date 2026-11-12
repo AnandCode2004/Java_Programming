@@ -1,0 +1,42 @@
+import java.util.Scanner;
+class Iteration 
+{
+      public void Display(int iNo) 
+      {
+          int iCnt = 0;
+          
+          iCnt = 1;
+
+          do
+          {
+
+            System.out.println("--------------");
+            System.out.println(iCnt + " Jay Ganesh...");
+            System.out.println("--------------");
+          
+            iCnt++;
+          } while(iCnt <= iNo);
+    } 
+}
+
+
+
+class program67
+{
+    
+    
+    public static void main(String[] args)
+    {
+        Scanner scanner = null;
+        scanner = new Scanner(System.in);
+        int iValue = 0;
+
+        System.out.println("Enter the frequency");
+        iValue = scanner.nextInt();
+
+        Iteration iteration = new Iteration();
+        iteration.Display(iValue);
+
+        scanner.close();
+    }    
+}
